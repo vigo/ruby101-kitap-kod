@@ -98,6 +98,18 @@ a.next        # => 1
 
 ## Diğer Nesnelerdeki Enumeration Durumları
 
-### Number
+### Fixnum
 
-???
+```ruby
+10.downto(5){ |i| puts "Sayı: #{i}" }
+5.upto(10){ |i| puts "Sayı: #{i}" }
+3.times{ |i| puts "#{i}" }
+```
+
+
+### String
+
+```ruby
+"A".upto("M"){ |s| puts s }
+"AB".upto("AE"){ |s| puts s }
+```
